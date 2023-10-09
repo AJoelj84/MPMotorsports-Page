@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Dropdown from 'react-bootstrap/Dropdown';
-// import './assets/styling/fonts.css';
+import './assets/fonts.css';
 
 function Navigation() {
   return (
     <Dropdown class= 'dropdown' style={{ float: 'right', paddingRight: '40px' }}>
       <Dropdown.Toggle variant="primary" id="dropdownMenuButton">
-        Navigation
+        Navigate
       </Dropdown.Toggle>
       <Dropdown.Menu>
         <Dropdown.Item as={Link} to="/">Home</Dropdown.Item>
