@@ -1,3 +1,5 @@
+/* Header Banner */
+
 .header{
     background: linear-gradient(to right, #880101,#7e0000,#3d3d3d );
     padding-top: 20px;
@@ -23,8 +25,7 @@
 
 
 
-
-
+/* Gallery for About Page */
 
 .gallery-container {
     width: 75%;
@@ -44,6 +45,8 @@
     height: auto;
     margin-right: 20px; 
   }
+
+
 
 /* About us Section */
 
