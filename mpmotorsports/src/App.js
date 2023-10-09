@@ -16,9 +16,9 @@ function App() {
         <h1 className='header'>MP Motorsports <Navigation /></h1>
           <Routes>
             <Route path="/" element={<Home/>} exact />
-            <Route path="/projects" element={<About/>} />
-            <Route path="/contact" element={<Contact/>} />
-            <Route path="/resume" element={<Services/>} />
+            <Route path="/About" element={<About/>} />
+            <Route path="/Contact" element={<Contact/>} />
+            <Route path="/Services" element={<Services/>} />
           </Routes>
         <Footer/>
       </div>
