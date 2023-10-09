@@ -20,3 +20,48 @@
     margin-top: -30px;
     letter-spacing: 4px;
 }
+
+
+
+
+
+
+.gallery-container {
+    width: 75%;
+    margin:0 auto;
+    overflow-x: auto;
+    
+    
+  }
+  
+.gallery {
+    display: flex;
+    flex-direction: row; 
+  }
+  
+.galleryimage {
+    width: 100%;
+    height: auto;
+    margin-right: 20px; 
+  }
+
+/* About us Section */
+
+.aboutheader{
+    padding-left: 180px;
+    padding-top: 40px;
+}
+
+.maxprofile{
+    max-height: 1000px;
+    padding-bottom: 300px;
+    padding-right: 100px;
+    padding-top:50px;
+}
+
+.aboutus{
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 100px;
+    padding-top:50px;
+}
