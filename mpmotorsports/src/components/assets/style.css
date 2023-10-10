@@ -1,4 +1,4 @@
-/* Header Banner */
+/* Header Banner and Navigation */
 
 .header{
     background: linear-gradient(to right, #880101,#7e0000,#0401a5 );
@@ -25,32 +25,7 @@
     letter-spacing: 4px;
 }
 
-
-
-/* Gallery for About Page */
-
-.gallery-container {
-    width: 75%;
-    margin:0 auto;
-    overflow-x: auto;
-    
-    
-  }
-  
-.gallery {
-    display: flex;
-    flex-direction: row; 
-  }
-  
-.galleryimage {
-    width: 100%;
-    height: auto;
-    margin-right: 20px; 
-  }
-
-
-
-/* About us Section */
+/* About Page */
 
 .aboutheader{
     padding-left: 180px;
@@ -71,10 +46,11 @@
     padding-top:50px;
 }
 
+/* About Page Carousel Controls */
 .piccarousel{
     max-width: 800px;
     max-height: 300px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 
