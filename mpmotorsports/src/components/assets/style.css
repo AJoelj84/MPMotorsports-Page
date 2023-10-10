@@ -47,10 +47,12 @@
 }
 
 /* About Page Carousel Controls */
+
 .piccarousel{
     max-width: 800px;
     max-height: 300px;
     margin: 0 auto;
+    
 }
 
 
@@ -69,11 +71,21 @@
 
 .fixed-size-carousel {
     width: 600px; 
-    height: 400px; 
+    height: 400px;
+   
 }
 
 .carousel-image {
     width: 200px;
     height: 500px; 
-    object-fit: cover; 
+    object-fit: cover;
+    
 }
+
+/* Footer Page CSS */
+
+.footlink{
+    padding-top: 300px;
+    text-align: center;
+}
+

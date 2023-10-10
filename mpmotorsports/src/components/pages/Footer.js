@@ -5,9 +5,9 @@ function Footer() {
     <footer style={{fontFamily: 'Josefin Sans, sans-serif'}} className="">
       <div className="">
         <div>
-          <div className="">
-            <p className = 'footlink'>Placeholder text</p>   
-            <a href="">Email</a>
+          <div className='footlink'>
+            <p className = ''>Placeholder text</p>   
+            <a href="" className=''>Email</a>
           
           </div>         
         </div>
