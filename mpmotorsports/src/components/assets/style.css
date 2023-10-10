@@ -70,3 +70,34 @@
     padding-left: 100px;
     padding-top:50px;
 }
+
+.piccarousel{
+    max-width: 800px;
+    max-height: 300px;
+    margin: 0 auto; 
+}
+
+
+.carousel-control-prev {
+    background-color: #000000;
+  }
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #292828;
+    border: 10px; 
+    color: #ffffff;
+    width: 50px;
+    height: 500px;
+}
+
+.fixed-size-carousel {
+    width: 600px; 
+    height: 400px; 
+}
+
+.carousel-image {
+    width: 200px;
+    height: 500px; 
+    object-fit: cover; 
+}

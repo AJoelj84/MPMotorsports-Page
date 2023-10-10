@@ -8,6 +8,7 @@ import Contact from './components/pages/Contact';
 import Services from './components/pages/Services';
 import Footer from './components/pages/Footer';
 import './components/assets/fonts.css'
+
 function App() {
 
   return (

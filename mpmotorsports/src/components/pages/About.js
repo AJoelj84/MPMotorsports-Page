@@ -51,18 +51,41 @@ function About() {
           </div>
         </div>
 
-        <div className='gallery-container'>
-          <div className='gallery'>
-            <img src={engine} alt='shopimages' className='galleryimage' />
-            <img src={engine2} alt='shopimages' className='galleryimage' />
-            <img src={engine3} alt='shopimages' className='galleryimage' />
-            <img src={grinder} alt='shopimages' className='galleryimage' />
-            <img src={hillman} alt='shopimages' className='galleryimage' />
-            <img src={max} alt='shopimages' className='galleryimage' />
-          </div>
-        </div>
+       <div id="carouselWithControls" className="carousel slide piccarousel fixed-size-carousel" data-bs-ride="carousel">
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src={engine} className="d-block w-100 carousel-image" alt="Slide 1" />
+    </div>
+    <div className="carousel-item">
+      <img src={engine2} className="d-block w-100 carousel-image" alt="Slide 2" />
+    </div>
+    <div className="carousel-item">
+      <img src={engine3} className="d-block w-100 carousel-image" alt="Slide 3" />
+    </div>
+    <div className="carousel-item">
+      <img src={grinder} className="d-block w-100 carousel-image" alt="Slide 4" />
+    </div>
+    <div className="carousel-item">
+      <img src={hillman} className="d-block w-100 carousel-image" alt="Slide 5" />
+    </div>
+    <div className="carousel-item">
+      <img src={max} className="d-block w-100 carousel-image" alt="Slide 6" />
+    </div>
+  </div>
+  <a className="carousel-control-prev" href="#carouselWithControls" role="button" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
+  </a>
+  <a className="carousel-control-next" href="#carouselWithControls" role="button" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
+  </a>
+</div>
+
       </section>
     </div>
+
+
   );
 }
 
