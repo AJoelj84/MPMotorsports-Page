@@ -46,13 +46,23 @@
     padding-top:50px;
 }
 
+.aboutpage{
+    padding-bottom: 400px;
+}
+
+
 /* About Page Carousel Controls */
+
+.carouseltext{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
 
 .piccarousel{
     max-width: 800px;
     max-height: 300px;
     margin: 0 auto;
-    
 }
 
 
@@ -72,6 +82,7 @@
 .fixed-size-carousel {
     width: 600px; 
     height: 400px;
+    
    
 }
 
@@ -80,12 +91,18 @@
     height: 500px; 
     object-fit: cover;
     
+    
 }
 
 /* Footer Page CSS */
 
+.footer{
+    background: linear-gradient(to right, #880101,#7e0000,#0401a5 );
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+}
 .footlink{
-    padding-top: 300px;
+    padding-top: 50px;
     text-align: center;
 }
 

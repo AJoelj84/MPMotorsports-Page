@@ -12,7 +12,7 @@ function About() {
   return (
     <div>
       <h1 className='aboutheader' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>About MP Motorsports</h1>
-      <section style={{ fontFamily: 'Josefin Sans, sans-serif' }} className='bodytext'>
+      <section style={{ fontFamily: 'Josefin Sans, sans-serif' }} className='aboutpage'>
         <div className="row">
           <div className="col-md-6 order-md-2 text-center">
             <img src={maxprofile} alt= 'maxprofile' className='maxprofile'/>
@@ -51,6 +51,12 @@ function About() {
           </div>
         </div>
 
+
+<div className='carouseltext'> 
+  Pictures of the Work We Do and The Community We Serve
+</div>
+
+
        <div id="carouselWithControls" className="carousel slide piccarousel fixed-size-carousel" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
@@ -81,7 +87,6 @@ function About() {
     <span className="visually-hidden">Next</span>
   </a>
 </div>
-
       </section>
     </div>
 

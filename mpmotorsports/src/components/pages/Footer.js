@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
   return (
     <footer style={{fontFamily: 'Josefin Sans, sans-serif'}} className="">
-      <div className="">
+      <div className="footer">
         <div>
           <div className='footlink'>
             <p className = ''>Placeholder text</p>   
