@@ -29,8 +29,12 @@
 }
   
 .link:hover {
-    color: #6C00E6; 
-}
+    color: transparent;
+    background: linear-gradient(to right, 
+    #ffffff,#faefef,#f8afaf,#ff6666, #ff0000); 
+    background-clip: text;
+    -webkit-background-clip: text; /* This is included for older browsers */
+  }
 
 /* About Page */
 
