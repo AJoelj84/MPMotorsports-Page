@@ -14,15 +14,22 @@
     border-top: 8px solid black;
 }
 
-.dropdown .btn-primary {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 10px;
-    font-size: 40px;
-    margin-top: -30px;
-    letter-spacing: 4px;
+.navigation{
+    font-size: 35px;
+    padding-top: 30px;
+    
+}
+
+.link {
+    margin: 20px;
+    margin-top: 20px; 
+    text-decoration: none;
+    color: white; 
+    transition: color 0.3s;
+}
+  
+.link:hover {
+    color: #6C00E6; 
 }
 
 /* About Page */

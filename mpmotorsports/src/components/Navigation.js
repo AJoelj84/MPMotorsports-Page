@@ -1,21 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Dropdown from 'react-bootstrap/Dropdown';
 import './assets/fonts.css';
 
 function Navigation() {
+
   return (
-    <Dropdown className= 'dropdown' style={{ float: 'right', paddingRight: '40px' }}>
-      <Dropdown.Toggle variant="primary" id="dropdownMenuButton">
-        Navigate
-      </Dropdown.Toggle>
-      <Dropdown.Menu>
-        <Dropdown.Item as={Link} to="/">Home</Dropdown.Item>
-        <Dropdown.Item as={Link} to="/About">About</Dropdown.Item>
-        <Dropdown.Item as={Link} to="/Contact">Contact</Dropdown.Item>
-        <Dropdown.Item as={Link} to="/Services">Services</Dropdown.Item>
-      </Dropdown.Menu>
-    </Dropdown>
+    <div className="navigation" style={{ float: 'right', paddingRight: '40px' }}>
+      <Link to="/" className='link' >Home</Link>
+      <Link to="/About" className='link' >About</Link>
+      <Link to="/Contact" className='link' >Contact</Link>
+      <Link to="/Services" className='link' >Services</Link>
+    </div>
   );
 }
 
