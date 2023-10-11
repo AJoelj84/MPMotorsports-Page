@@ -113,3 +113,31 @@
     text-align: center;
 }
 
+
+/* Contact Page */
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .form-and-map-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .contact-form {
+    flex: 1;
+    padding: 10px;
+    max-width: 50%;
+  }
+  
+  .google-map {
+    flex: 1;
+    max-width: 50%;
+  }
+
